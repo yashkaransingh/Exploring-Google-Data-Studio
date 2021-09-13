@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Exploring Google Data Studio </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="navbar"> 
+        <button type="button" 
+            onclick= "window.location.href = 'https://datastudio.google.com/embed/reporting/413f3f68-0778-4e80-afec-6089366804c8/page/nnSXC';">
+            DASHBOARD:1
+        </button>
+        <button type="button"
+            onclick="window.location.href ='https://datastudio.google.com/embed/reporting/1141e64e-bb2e-4289-b5d5-7ce3fac7c0d4/page/QY9XC'">
+            DASHBOARD:2
+        </button>
+        <button
+            onclick="window.location.href = 'https://thingspeak.com/channels/1468451';">
+            thingspeak channel
+        </button>
+        <button type="button"
+            onclick="window.location.href='https://github.com/yashkaransingh/Exploring-Google-Data-Studio';">
+            GITHUB REPOSITORY
+        </button>
+    </div>
+    <div class="hero">
+        <div class="navbar">
+            
+            <div class="content">
+                <h1 style="font-size: 35px;">
+                    Ambient Climate Thnigspeak dashboard
+                </h1>
+                <iframe width="450" height="260" style="border: 10px solid #2f2c2c;" 
+                        src="https://thingspeak.com/channels/1468451/charts/1?bgcolor=%23000000&color=%23d62020&dynamic=true&results=100&type=line">
+                </iframe>
+                <iframe width="450" height="260" style="border: 10px solid #2f2c2c;"
+                        src="https://thingspeak.com/channels/1468451/charts/3?bgcolor=%23000000&color=%23d62020&dynamic=true&results=100&type=line">
+                </iframe>
+                <h1>
+                    pseudo box plot visualization
+                </h1>
+
+                <iframe autosize=true width="1000" height="650" style="border: 10px solid #2f2c2c;" 
+                        src="https://datastudio.google.com/embed/reporting/413f3f68-0778-4e80-afec-6089366804c8/page/nnSXC" 
+                frameborder="0" style="border: 10px;" allowfullscreen>
+                </iframe>
+
+                <h1 style="font-size: 35px;">
+                    BOXPLOT using plotly chartstudio
+                </h1>
+                <iframe style="border: 10px solid #2f2c2c;" width="800" height="600" frameborder="0" scrolling="no"
+                        src="//plotly.com/~yashkaransingh/1.embed">
+                </iframe>
+                <h1 style="font-size: 35px;">
+                    CGL 2 dashboard
+                </h1>
+                <iframe style="border: 10px solid #2f2c2c;" autosize= true width="1000" height="650" 
+                        src="https://datastudio.google.com/embed/reporting/1141e64e-bb2e-4289-b5d5-7ce3fac7c0d4/page/QY9XC" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h1>
+                    Coating Gauge Plot
+                </h1>
+                <iframe style="border: 10px solid #2f2c2c;" width="900" height="800" frameborder="0" scrolling="no" 
+                       src="//plotly.com/~yashkaransingh/4.embed">
+                </iframe>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<footer style="justify-content: center;">
+   Plots|code designed by yashkaransingh 
+</footer>
+</html>
