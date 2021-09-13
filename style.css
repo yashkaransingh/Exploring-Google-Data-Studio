@@ -7,7 +7,7 @@
 .hero{
     width: 100%;
     height: 500vh;
-    background:linear-gradient(#473196,#e4e5ec);
+    background:linear-gradient(#2e085d,#07666e);
 
 }
 .logo{
@@ -16,20 +16,21 @@
     cursor: pointer;
     background-color: inherit;
     padding: 0;
+    align-items: center;
 
     
 }
 .navbar{
-    width: 85%;
+    width: 60%;
     height: 15%;
     margin: auto;
     display: flex;
     align-items: top;
-    justify-content: flex-start;    
+    justify-content:center;  
 }
 button{
     color:#fbfcfd;
-    padding: 10px 10px;
+    padding: 15px 15px;
     background: black;
     border: 1px solid #fff;
     border-radius: 25px;
@@ -37,8 +38,9 @@ button{
     cursor: pointer;
     font-family: 'calibri';
     padding: auto;
-    position: relative;
+    justify-content: center;
     color: snow;
+    font-size: 15px;
 }
 .content{
     color:rgb(57, 9, 170);
@@ -52,10 +54,10 @@ button{
 
 }
 h1{
-    font-size: 80px;
+    font-size: 35px;
     margin: 10px 0 30px;
     line-height: 60px;
-    color: rgb(205, 50, 63);
+    color: rgb(249, 6, 26);
     position: relative;
     font-weight: bolder;
 
@@ -98,3 +100,4 @@ p{
     font-weight: bolder;
     justify-content: space-evenly;
 }
+
