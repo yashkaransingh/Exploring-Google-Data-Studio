@@ -62,7 +62,6 @@ void loop()
                              client.print("Host: api.thingspeak.com\n");
                              client.print("Connection: close\n");
                              client.print("X-THINGSPEAKAPIKEY: "+apiKey+"\n");
-                             client.print("Content-Type: application/x-www-form-urlencoded\n");
                              client.print("Content-Length: ");
                              client.print(postStr.length());
                              client.print("\n\n");
